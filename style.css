@@ -108,6 +108,10 @@ nav .nav__options a:hover {
   header {
     background-image: url("./images/bg-curvy-desktop.svg");
   }
+  header .nav img {
+    width: 150px;
+    padding-left: 3.5rem;
+  }
   header .nav .nav__options {
     padding-right: 3.5rem;
   }
