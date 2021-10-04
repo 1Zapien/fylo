@@ -112,7 +112,7 @@ nav{
 
     }
     button:hover{
-        background-color: $cyan;
+        background: linear-gradient(to right, $cyan, $cyan);
     }
 
 }
@@ -426,7 +426,7 @@ main{
      }
 
      #submit:hover{
-        background-color: $cyan;
+        background: linear-gradient(to right, $cyan, $cyan);
      }
 
 

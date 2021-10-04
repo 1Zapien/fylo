@@ -99,7 +99,8 @@ nav .nav__options a:hover {
 }
 
 .hero button:hover {
-  background-color: #65e2d9;
+  background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#65e2d9));
+  background: linear-gradient(to right, #65e2d9, #65e2d9);
 }
 
 @media only screen and (min-width: 600px) {
@@ -437,7 +438,8 @@ main {
 }
 
 .email-req #submit:hover {
-  background-color: #65e2d9;
+  background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#65e2d9));
+  background: linear-gradient(to right, #65e2d9, #65e2d9);
 }
 
 @media only screen and (min-width: 950px) {
