@@ -107,12 +107,13 @@ nav{
         width:50%;
         height: 50px;
         background: linear-gradient(to right, $cyan, $light-blue);
-        color: white
+        color: white;
         
 
     }
     button:hover{
         background: linear-gradient(to right, $cyan, $cyan);
+        cursor: pointer;
     }
 
 }
@@ -122,6 +123,12 @@ nav{
     header{
         background-image: url("./images/bg-curvy-desktop.svg");
 
+
+        .nav{
+            .nav__options{
+                padding-right: 3.5rem;
+            }
+        }
         .hero{
             min-height: 100vh;
         
@@ -371,7 +378,7 @@ main{
     .quotes{
         padding: 1rem;
         margin: 1rem;
-        overflow: scroll;
+
     }
 
 
@@ -427,6 +434,7 @@ main{
 
      #submit:hover{
         background: linear-gradient(to right, $cyan, $cyan);
+        cursor: pointer;
      }
 
 

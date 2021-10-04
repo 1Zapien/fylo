@@ -101,11 +101,15 @@ nav .nav__options a:hover {
 .hero button:hover {
   background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#65e2d9));
   background: linear-gradient(to right, #65e2d9, #65e2d9);
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 600px) {
   header {
     background-image: url("./images/bg-curvy-desktop.svg");
+  }
+  header .nav .nav__options {
+    padding-right: 3.5rem;
   }
   header .hero {
     min-height: 100vh;
@@ -379,7 +383,6 @@ main {
   .quotes {
     padding: 1rem;
     margin: 1rem;
-    overflow: scroll;
   }
 }
 
@@ -440,6 +443,7 @@ main {
 .email-req #submit:hover {
   background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#65e2d9));
   background: linear-gradient(to right, #65e2d9, #65e2d9);
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 950px) {
