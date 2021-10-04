@@ -115,6 +115,9 @@ nav .nav__options a:hover {
   header .nav .nav__options {
     padding-right: 3.5rem;
   }
+  header .nav .nav__options a {
+    margin: 1rem;
+  }
   header .hero {
     min-height: 100vh;
   }

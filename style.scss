@@ -125,13 +125,16 @@ nav{
 
 
         .nav{
-
             img{
                 width: 150px;
                 padding-left: 3.5rem;
             }
             .nav__options{
                 padding-right: 3.5rem;
+                    a{
+                        margin: 1rem;
+                    }
+            
             }
         }
         .hero{
