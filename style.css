@@ -176,6 +176,7 @@ main {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  margin: auto;
   padding-bottom: 6rem;
 }
 
@@ -191,6 +192,7 @@ main {
 .mid-section p {
   font-family: "Open Sans", sans-serif;
   line-height: 1.75;
+  max-width: 400px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -235,6 +237,7 @@ main {
   text-align: left;
   font-family: "Open Sans", sans-serif;
   line-height: 1.75;
+  max-width: 600px;
 }
 
 .productive img {
@@ -479,6 +482,7 @@ main {
 
 footer {
   background-color: #0b1523;
+  padding-bottom: 3rem;
 }
 
 address {
@@ -529,6 +533,7 @@ address .links {
 
 .contact a:hover {
   cursor: pointer;
+  font-weight: 700;
 }
 
 .contact__personal {
@@ -552,6 +557,7 @@ address .links {
 
 .links a:hover {
   cursor: pointer;
+  font-weight: 700;
 }
 
 .media-links {
@@ -570,9 +576,13 @@ address .links {
   padding: .5rem;
 }
 
-.media-links img {
+.media-links i {
   height: 25px;
-  fill: white;
+  color: white;
+}
+
+.media-links i:hover {
+  color: #339ecc;
 }
 
 @media only screen and (min-width: 950px) {

@@ -188,6 +188,7 @@ main{
 
 .mid-section{
     align-self: center;
+    margin: auto;
     padding-bottom: 6rem;
 
     img{
@@ -202,6 +203,7 @@ main{
     p{
         font-family: $open-sans;
         line-height: 1.75;
+        max-width: 400px;
     }
 
 }
@@ -221,6 +223,7 @@ main{
         align-self: stretch;
         align-content: space-between;
         padding: 2rem;
+
 
     }
 
@@ -244,6 +247,7 @@ main{
         text-align: left;
         font-family: $open-sans;
         line-height: 1.75;
+        max-width: 600px;
     }
     img{
         margin: 2rem 0rem  1rem 0rem;
@@ -473,6 +477,7 @@ main{
 
 footer{
     background-color:$dark-footer;
+    padding-bottom: 3rem; 
 }
 
 address{
@@ -524,6 +529,7 @@ address{
 
     a:hover{
         cursor: pointer;
+        font-weight: 700;
     }
 
     
@@ -552,6 +558,7 @@ address{
 
     a:hover{
         cursor: pointer;
+        font-weight: 700;
     }
 }
 
@@ -566,9 +573,12 @@ address{
         padding: .5rem;
     }
 
-    img{
+    i{
         height: 25px;
-        fill: white;
+        color: white;
+    }
+    i:hover{
+        color: $light-blue;
     }
 }
 
